@@ -1,0 +1,67 @@
+1. Creació de la rama de trabajo
+Partiendo de la rama develop, crea una nueva rama para realizar tu tarea.
+El nombre de la rama deberá seguir el siguiente formato:
+feature/issue-NUMERO
+Sustituye NUMERO por el número de la Issue que tienes asignada en GitHub.
+Por ejemplo, si tu Issue es la número 7, el nombre de tu rama será:
+feature/issue-7
+
+2.1  Creación del archivo HTML
+Dentro de la carpeta src, crea un archivo denominado:
+alumnonie.html
+
+El archivo deberá incluir la siguiente información:
+
+<h1>Alumno: Tu nombre y dos apellidos</h1>
+
+<h2>Email corporativo: alumno.nie@ies-azarquiel.es</h2>
+
+<h2>Cuenta GitHub: identificador de tu cuenta de GitHub</h2>
+
+Sustituye los datos de ejemplo por tus datos personales y tu dirección de correo corporativa.
+
+Una vez terminado el archivo, confirma los cambios mediante un commit con el siguiente mensaje:
+Archivo del alumno: tu nombre y dos apellidos terminado
+
+2.2. Incorporación de los estilos CSS
+
+Vuelve a editar el archivo alumnonie.html e introduce una etiqueta <style> con las siguientes reglas CSS:
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    color: darkolivegreen;
+}
+
+Comprueba que los estilos se encuentran correctamente incorporados en el documento HTML.
+
+Confirma esta segunda modificación mediante un nuevo commit con el siguiente mensaje:
+
+Hoja de estilos del alumno: tu nombre y dos apellidos finalizada
+
+3. Publicación del trabajo en GitHub
+
+Una vez finalizada la tarea:
+
+Sube a GitHub la rama feature/issue-NUMERO en la que has realizado el trabajo.
+
+Comprueba que la rama se encuentra publicada correctamente en el repositorio colaborativo.
+
+4. Solicitud de integración mediante Pull Request
+
+Desde la página del repositorio en GitHub, crea una Pull Request con las siguientes características:
+
+Rama de origen (compare): tu rama feature/issue-NUMERO.
+
+Rama de destino (base): develop.
+
+Revisor (Reviewer): profesorfernandoop.
+
+En el campo de descripción de la Pull Request, introduce el siguiente texto:
+
+Tarea terminada. Solicito que sea revisada por profesorfernandoop.
+
+Comprueba que la Pull Request se ha creado correctamente y que aparece el revisor solicitado.
+
